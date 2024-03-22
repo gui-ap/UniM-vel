@@ -8,4 +8,4 @@ Imobiliaria - UniMóvel Repository
     
 - Nossa empresa utiliza tecnologias de ponta para garantir transparência e oferecer filtros personalizados para atender às necessidades de diversos tipos de clientes. Contamos com ferramentas tecnológicas que preparam o ambiente de forma individualizada para cada comprador, proporcionando uma experiência personalizada e facilitando a busca pelo imóvel ideal. Nossas tecnologias são treinadas para serem adaptáveis e de fácil interação, garantindo um ótimo entendimento da ferramenta por parte dos usuários. Priorizamos a simplicidade e a eficiência na utilização das nossas soluções tecnológicas, tornando o processo de busca, compra ou aluguel de imóveis mais ágil e intuitivo para nossos clientes.
 
-- Nós estamos utilizando o Notion como ferramenta as análises e as trocas de informações.
+- Nós estamos utilizando o Notion para anotações e planejamento de informações. As tecnologias utilizadas estão sendo estudadas.
