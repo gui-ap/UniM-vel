@@ -1,0 +1,8 @@
+id,tipo,bairro,quartos,preco,data_publicacao
+1,Casa,Centro,3,300000,2022-01-01
+2,Apartamento,Zona Sul,2,200000,2022-02-15
+3,Casa,Zona Norte,4,400000,2022-03-10
+4,Apartamento,Centro,1,150000,2022-04-20
+5,Terreno,Zona Oeste,,,2022-05-05
+6,Terreno,Zona Oeste,0,80000,2022-05-05
+7,,Zona Norte,4,,2022-03-10
