@@ -1,0 +1,35 @@
+Nome do proprietario,Cidade,Aluguel,CEP,Área/m²,Quartos,Tipo Propriedade,Possibilidade de compra
+Juan,São Paulo,1.200,,60,2,Apartamento,x
+Juan,São Paulo,2.200,,70,3,Apartamento,x
+Guilherme Augusto,São Paulo,3.200,,62,3,Apartamento,
+Guilherme Augusto,São Paulo,1.400,,24,1,Studio,
+Oliver Glenio,São Paulo ,2.200,,44,2,Casa,x
+Oliver Glenio,São Paulo ,2.400,,45,2,Apartamento,
+Wesley Evangelista,Rio de Janeiro,1.800,,39,1,Apartamento,
+Wesley Evangelista,Rio de Janeiro,2.200,,40,2,Apartamento,
+Wesley Evangelista,Rio de Janeiro,2.400,,32,2,Apartamento,
+João da Silva,Curitiba,2.200,,45,2,Apartamento,x
+João da Silva,Curitiba,2.000,,40,2,Casa,
+João da Silva,Curitiba,1.600,,40,1,Studio,
+João da Silva,Curitiba,1.750,,20,1,Apartamento,x
+Juan ,Curitiba,2.300,,25,2,Casa,
+Guilherme Augusto,Vitória,2.000,,30,2,Apartamento,
+Wesley Evangelista,Maceió,1.200,,44,2,Casa,
+Oliver Glenio,Maceió,1.100,,30,2,Casa,
+Oliver Glenio,Maceió,900,,20,1,Casa,
+Wesley Evangelista,Curitiba,1.400,,30,1,Stúdio,
+Wesley Evangelista,São Paulo,1.600,,35,2,Apartamento,
+Wesley Evangelista,São Paulo,1.700,,40,2,Apartamento,
+Guilherme Augusto,Rio de Janeiro,2.000,,44,2,Apartamento,
+Juan,Vitória,1.700,,25,2,Apartamento,
+Juan,Rio de Janeiro,1.600,,35,1,Studio,
+Oliver Glenio,Rio de Janeiro,2.400,,44,2,Apartamento,
+Oliver Glenio,Rio de Janeiro,2.300,,46,2,Apartamento,
+João da Silva,Curitiba,2.200,,45,2,Apartamento,
+Oliver Glenio,Rio de Janeiro,2.100,,40,2,Apartamento,
+Guilherme Augusto,São Paulo ,1.700,,25,1,Studio,
+Maria de Jesus,Maceió,800,,20,2,Casa,
+Maria de Jesus,São Paulo,2.300,,40,2,Casa,
+Juan,Curitiba,2.000,,40,2,Apartamento,
+Oliver Glenio,Vitória,1.600,,45,2,Apartamento,
+Oliver Glenio,São Paulo,2.500,,42,2,Apartamento,
