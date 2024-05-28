@@ -1,0 +1,4 @@
+Primeira Forma Normal (1NF): Cada célula da tabela tem um único valor, não uma lista de valores.
+Segunda Forma Normal (2NF): Todos os dados na tabela dependem de toda a chave primária, não apenas de uma parte dela.
+Terceira Forma Normal (3NF): Não há colunas que dependem de outras colunas que não sejam a chave primária.
+Quarta Forma Normal (4NF): Não há conjuntos de valores que dependem da chave primária.
