@@ -6,9 +6,11 @@ id: Número único para cada proprietário.
 nome: Nome do proprietário.
 cidade: Cidade do proprietário.
 cep: CEP do proprietário.
+
+----------------------
+
 Tabela: imoveis
 
-Tabela: imóvel
 id: Número único para cada imóvel.
 proprietario_id: Número do proprietário do imóvel.
 aluguel: Valor do aluguel do imóvel.
@@ -17,24 +19,29 @@ area_m2: Tamanho do imóvel em metros quadrados.
 quartos: Número de quartos do imóvel.
 tipo_propriedade: Tipo do imóvel (Apartamento, Casa, etc.).
 possibilidade_compra: Se o imóvel pode ser comprado.
+
+----------------------
+
 Tabela: clientes
 
-Tabela: cliente
 id: Número único para cada cliente.
 nome: Nome do cliente.
 cidade: Cidade do cliente.
 cep: CEP do cliente.
+
+----------------------
+
 Tabela: vendas
 
-
-Tabela: venda
 id: Número único para cada venda.
 cliente_id: Número do cliente que comprou.
 imovel_id: Número do imóvel vendido.
 data_venda: Quando a venda aconteceu.
+
+----------------------
+
 Tabela: alugueis
 
-Tabela: aluguel
 id: Número único para cada aluguel.
 cliente_id: Número do cliente que alugou.
 imovel_id: Número do imóvel alugado.
