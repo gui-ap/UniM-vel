@@ -1,7 +1,7 @@
 import pandas as pd
 from datetime import datetime
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split, GridSearchCV, cross_val_score
+from sklearn.linear_model import Ridge
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Carregar os dados
@@ -26,23 +26,33 @@ X = pd.get_dummies(X, columns=['bairro'])
 # Dividir o conjunto de dados em conjunto de treinamento e teste
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Verificar tamanhos dos conjuntos de dados
-print(f"Tamanho do conjunto de treinamento: {len(X_train)}")
-print(f"Tamanho do conjunto de teste: {len(X_test)}")
+# Otimização dos hiperparâmetros usando GridSearchCV com Ridge Regression
+parameters = {'alpha': [0.1, 1, 10, 100]}
+ridge = Ridge()
+clf = GridSearchCV(ridge, parameters, cv=5)
+clf.fit(X_train, y_train)
 
-# Criar e treinar o modelo de regressão linear
-model = LinearRegression()
-model.fit(X_train, y_train)
+# Melhor modelo após a otimização
+best_model = clf.best_estimator_
+
+# Avaliação do modelo usando validação cruzada
+cv_scores = cross_val_score(best_model, X, y, cv=5)
+
+# Treinar o modelo otimizado no conjunto de treinamento completo
+best_model.fit(X_train, y_train)
 
 # Fazer previsões no conjunto de teste
-y_pred = model.predict(X_test)
+y_pred = best_model.predict(X_test)
 
 # Avaliar o modelo
 mse = mean_squared_error(y_test, y_pred)
 r2 = r2_score(y_test, y_pred)
 
+print(f"\nMelhor Modelo: {best_model}")
 print(f"\nMean Squared Error: {mse}")
 print(f"R-squared: {r2}")
+print(f"\nCross-Validation Scores: {cv_scores}")
+print(f"Mean CV Score: {cv_scores.mean()}")
 
 # Exibir previsões e valores reais de forma detalhada
 df_results = pd.DataFrame({'Atual': y_test, 'Sugerido': y_pred})
